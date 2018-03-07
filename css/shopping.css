@@ -611,9 +611,7 @@ footer .copyright {
 }
 
 /** #maincontents pro_imgs **/
-#maincontents .pro_imgs {
-  background: #ccc;
-}
+
 
 /** #maincontents pro_info **/
 @media (min-width: 550px) {
