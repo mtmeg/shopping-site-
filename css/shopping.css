@@ -229,16 +229,6 @@ footer .copyright {
 
 
 
-#maincontents #eyecatch {
-    background: #bbb;
-}
-
-
-
-#maincontents .pro_list_all {
-    background: #bbb;
-    width: 100%;
-}
 
 /** #maincontents title **/
 
@@ -740,5 +730,20 @@ footer .copyright {
 #maincontents .explain_info .exp_tbl th {
   background-color: #f9f9f5;
   text-align: center; }
-#maincontents .explain_info .exp_tbl  {
-  background-color: #f9f9f5;}
+
+/** #maincontents #guide **/
+#maincontents #guide .columns {
+  width: 100%; 
+}
+@media (min-width: 550px) {
+  #maincontents #guide {
+    display: flex; 
+  }
+  #maincontents #guide .columns {
+    margin: 0;
+    width: 49.7%; 
+  }
+  #maincontents #guide .columns:last-child {
+    margin-left: 2px; 
+  } 
+}
